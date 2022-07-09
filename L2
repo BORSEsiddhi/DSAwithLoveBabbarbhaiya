@@ -1,0 +1,29 @@
+//datatypes
+
+//opeators
+#include <iostream>
+
+int main() {
+    
+    int a=2;
+    int b=3;
+    
+    bool first = (a==b);
+    std::cout << first;
+    
+    bool second = (a<b);
+    std::cout << second;
+    
+    bool third = (a>b);
+    std::cout << third;
+    
+    bool fourth= (a>=b);
+    std::cout << fourth;
+    
+    bool fifth = (a<=b);
+    std::cout << fifth;
+    
+    bool sixth = (a!=b);
+    std::cout << sixth;
+    return 0;
+}
